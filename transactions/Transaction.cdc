@@ -1,6 +1,6 @@
 import MovieDatabase from 0x01
 
-transaction(title: String, genre: String, director: String, releaseYear: UInt32) {
+transaction(title: String, genre: String, director: String, releaseYear: UInt64) {
 
     prepare(signer: AuthAccount) {}
 
